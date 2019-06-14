@@ -19,7 +19,7 @@ ENV NPM_CONFIG_PREFIX /opt/app-root/src/.npm-global
 
 EXPOSE 8080
 
-USER root
+USER sai
 
 COPY files ${APP_BASE_DIR}/files
 
